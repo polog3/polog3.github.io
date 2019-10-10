@@ -1,0 +1,32 @@
+h3 {
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 140px;
+	margin-bottom: 100px;
+}
+.box {
+height: 180px;
+/*border: 2px solid #333;*/
+text-align: center;
+margin-bottom: 50px;
+}
+.t1 {
+	margin-top: 9px;
+}
+.t2 {
+margin-top: -11px;
+}
+.t3 {
+	margin-top: 23px;
+}
+.t4 {
+margin-top: 4px;
+}
+.t5 {
+margin-top: 12px;
+}
+.t6 {
+	margin-top: 1px;
+}
+
+
