@@ -24,3 +24,5 @@
 [Урок 11](https://polog3.github.io/Lesson-11/ "Моя домашка") - Сниппеты 
 
 [Урок 12](https://polog3.github.io/lesson-12/ "Моя домашка") - Работа с репозиторием на GitHub
+
+[Урок 13](https://polog3.github.io/lesson-13/src "Моя домашка") - Адаптивная верстка
