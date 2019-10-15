@@ -1,7 +1,22 @@
 # Артём Ермоленко
 Мои домашние задания
 
-[Урок 2](https://polog3.github.io/Lesson-2/ "Моя домашка") - Работа с графикой для разработчика
+[Урок 2.1 ](https://polog3.github.io/Lesson-2/Иконки/avatar.svg "Моя домашка")
+[Урок 2.2 ](https://polog3.github.io/Lesson-2/Иконки/instagram.svg "Моя домашка")
+[Урок 2.3 ](https://polog3.github.io/Lesson-2/Иконки/placeholder-filled-point.svg "Моя домашка")
+[Урок 2.4 ](https://polog3.github.io/Lesson-2/Иконки/smartphone-ringing.svg "Моя домашка")
+[Урок 2.5 ](https://polog3.github.io/Lesson-2/Иконки/telephone-handle-silhouette.svg "Моя домашка")
+[Урок 2.6 ](https://polog3.github.io/Lesson-2/Иконки/vk-social-logotype.svg "Моя домашка")
+[Урок 2.7 ](https://polog3.github.io/Lesson-2/Фон/фон шапки.jpg "Моя домашка")
+[Урок 2.8 ](https://polog3.github.io/Lesson-2/Фото с эффектами/Фон.jpg "Моя домашка")
+[Урок 2.9 ](https://polog3.github.io/Lesson-2/Фото/Девушка.jpg "Моя домашка")
+[Урок 2.10 ](https://polog3.github.io/Lesson-2/Фото/Жалюзи-1.jpg "Моя домашка")
+[Урок 2.11 ](https://polog3.github.io/Lesson-2/Фото/Жалюзи-2.jpg "Моя домашка")
+[Урок 2.12 ](https://polog3.github.io/Lesson-2/Фото/Жалюзи-3.jpg "Моя домашка")
+[Урок 2.13 ](https://polog3.github.io/Lesson-2/Фото/Жалюзи-4.jpg "Моя домашка")
+[Урок 2.14 ](https://polog3.github.io/Lesson-2/Фото/Жалюзи-5.jpg "Моя домашка")
+[Урок 2.15 ](https://polog3.github.io/Lesson-2/Фото/Комната-с-жалзями.jpg "Моя домашка")
+[Урок 2.16 ](https://polog3.github.io/Lesson-2/Фото/Комната-с-жалзями.jpg "Моя домашка") - Работа с графикой для разработчика
 
 [Урок 3](polog3.github.io/Lesson-3/l3.png "Моя домашка") 
 [Урок 3(ч2)](https://polog3.github.io/Lesson-3/l3(2).png "Моя домашка") - Настройка рабочего пространства
