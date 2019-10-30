@@ -1,0 +1,259 @@
+@font-face {
+font-family: 'Myriad Pro Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Myriad Pro Regular'), url(../fonts/MYRIADPRO-REGULAR.woff) format('woff');
+}
+
+@font-face {
+font-family: 'Myriad Pro Bold';
+font-style: normal;
+font-weight: normal;
+src: local('Myriad Pro Bold'), url(../fonts/MYRIADPRO-BOLD.woff) format('woff');
+}
+
+/* Colors */
+
+@blue: #03a0d2;
+@dark: #000;
+@light: #fff;
+@red: #8e0b01;
+@gray: #767575;
+
+/* Pseudo-classes */
+
+.nav-link:active {
+color: @dark;
+}
+.nav-link:hover {
+	color: @dark;
+}
+input:hover {
+ outline:none;
+ box-shadow: 0px 0px 46px -16px rgba(25,182,255,1);
+ transform: scale(1.1);
+}
+.fogot:active {
+ color: @red;
+}
+.fogot:hover {
+	color: @red;
+	text-decoration: none;
+ opacity: 1;
+}
+	.remind:hover {
+	color: @gray;
+ transform: scale(1.3);
+}
+#send-mailing:hover {
+	cursor: pointer;
+}
+.enter:active {
+ color: @light;
+}
+.enter:hover {
+	color: @light;
+	text-decoration: none;
+	opacity: 0.5;
+}
+	.agree:hover {
+		color: @gray;
+	} 
+	.button:hover {
+		transform: scale(1.6);
+	}
+
+/* Fonts */
+
+.reg() {
+	font-family: 'Myriad Pro Regular', sans-serif;
+}
+.bold() {
+	font-family: 'Myriad Pro Bold', sans-serif;
+}
+
+/* Settings */
+
+.settings-1() {
+	position: absolute;
+	width: 482px;
+	height: 58px;
+}
+body {
+	background: url(../img/BG.jpg) no-repeat;
+	background-position: 0 0;
+	background-size: cover;
+	.reg();
+}
+
+/* Form */
+
+.block-1 {
+	position: relative;
+	margin-top: 3rem;
+ position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 598px;
+	height: 446px;
+}
+
+/* Tabs */
+
+.tab-pane {
+background-color: @dark;
+width: 630px;
+height: 408px;
+}
+.nav-link {
+	display: inline;
+	background-color: @light;
+	color: @dark;
+ box-shadow: 34px 6px 60px 21px rgba(0,0,0,1);
+	text-shadow: -7px 2px 18px rgba(0,0,0,1);
+/* 	max-height: 30px;
+padding: 0.2rem 1rem; */
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.link-1.active {
+    color: @light;
+    background-color: @blue;
+    border-color: @blue;  
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.link-2.active {
+    color: @light;
+    background-color: @red;
+    border-color: @red;  
+}
+
+.link-1 {
+	margin-right: 10px;
+}
+
+.nav-tabs {
+max-width: 198.3px;
+}
+.types() {
+	position: relative;
+	transform: translateX(-2rem);
+	border-radius: 8px;
+}
+.type-1 {
+.types();
+border: 20px solid @blue;
+}
+.type-2 {
+.types();
+border: 20px solid @red;
+}
+
+/* Inputs */
+
+.input {
+	.settings-1();
+	z-index: 9;
+ background-color: rgba(0,0,0,0);
+ border: none;
+ outline:none;
+ padding: 1.2rem ;
+ color: @gray;
+ font-size: 1.5rem;
+ font-weight: 100;
+ background: url(../img/input.png);
+ left: 50px;
+ transition: all 0.4s;
+ &-1 {
+  top: 70px;
+ }
+ &-2 {
+ 	top: 160px;
+ }
+ &-3 {
+ top: 30px;
+ }
+ &-4 {
+ top: 100px;
+ }
+ &-5 {
+ top: 170px;
+ }
+ &-6 {
+ top: 240px;
+ }
+}
+
+/* Forgot your password? */
+
+.fogot {
+	.settings-1();
+	top: 235px;
+	left: 70px;
+	color: @red;
+	opacity: 0.6;
+ &::after {
+ 	content: '';
+ 	display: block;
+ 	width: 7rem;
+ 	height: 1px;
+ 	transform-origin: 0;
+ 	transform: scaleX(0);
+ 	background-color: @red;
+ 	transition: all 0.6s;
+ }
+ &:hover::after {
+ transform: scaleX(1)
+ }
+}
+
+/* Remind */
+
+.remind {
+	position: relative;
+ width: 138px;
+ height: 28px;
+ left: 70px;
+ top: 310px;
+}
+
+/* Log in */
+
+.log-in {
+	display: inline-block;
+	width: 127px;
+	height: 53px;
+	background: url(../img/Entrance.png);
+	position: absolute;
+	z-index: 9;
+	left: 495px;
+	top: 315px;
+	text-align: center;
+ padding: 7px 0;
+}
+
+.enter {
+	color: @light;
+	font-size: 1.3rem;
+transition: all 0.2s;
+}
+
+/* Register */
+.agree {
+	position: relative;
+ width: 400px;
+ height: 28px;
+ left: 40px;
+ top: 320px;
+}
+
+.register {
+display: inline-block;
+	width: 210px;
+	height: 71px;
+	background: url(../img/Register.png);
+	position: absolute;
+	z-index: 9;
+	left: 429px;
+	top: 310px;
+	text-align: center;
+ padding: 7px 0;	
+}
