@@ -1,0 +1,234 @@
+@font-face {
+  font-family: 'Myriad Pro Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Myriad Pro Regular'), url(../fonts/MYRIADPRO-REGULAR.woff) format('woff');
+}
+@font-face {
+  font-family: 'Myriad Pro Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Myriad Pro Bold'), url(../fonts/MYRIADPRO-BOLD.woff) format('woff');
+}
+/* Colors */
+/* Pseudo-classes */
+.nav-link:active {
+  color: #000000;
+}
+.nav-link:hover {
+  color: #000000;
+}
+input:hover {
+  outline: none;
+  -webkit-box-shadow: 0px 0px 46px -16px #19b6ff;
+          box-shadow: 0px 0px 46px -16px #19b6ff;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+.fogot:active {
+  color: #8e0b01;
+}
+.fogot:hover {
+  color: #8e0b01;
+  text-decoration: none;
+  opacity: 1;
+}
+.remind:hover {
+  color: #767575;
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+}
+#send-mailing:hover {
+  cursor: pointer;
+}
+.enter:active {
+  color: #ffffff;
+}
+.enter:hover {
+  color: #ffffff;
+  text-decoration: none;
+  opacity: 0.5;
+}
+.agree:hover {
+  color: #767575;
+}
+.button:hover {
+  -webkit-transform: scale(1.6);
+          transform: scale(1.6);
+}
+/* Fonts */
+/* Settings */
+body {
+  background: url(../img/BG.jpg) no-repeat;
+  background-position: 0 0;
+  background-size: cover;
+  font-family: 'Myriad Pro Regular', sans-serif;
+}
+/* Form */
+.block-1 {
+  margin-top: 3rem;
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 598px;
+  height: 446px;
+}
+/* Tabs */
+.tab-pane {
+  background-color: #000000;
+  width: 630px;
+  height: 408px;
+}
+.nav-link {
+  display: inline;
+  background-color: #ffffff;
+  color: #000000;
+  -webkit-box-shadow: 34px 6px 60px 21px #000000;
+          box-shadow: 34px 6px 60px 21px #000000;
+  text-shadow: -7px 2px 18px #000000;
+  /* 	max-height: 30px;
+padding: 0.2rem 1rem; */
+}
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.link-1.active {
+  color: #ffffff;
+  background-color: #03a0d2;
+  border-color: #03a0d2;
+}
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.link-2.active {
+  color: #ffffff;
+  background-color: #8e0b01;
+  border-color: #8e0b01;
+}
+.link-1 {
+  margin-right: 10px;
+}
+.nav-tabs {
+  max-width: 198.3px;
+}
+.type-1 {
+  position: relative;
+  -webkit-transform: translateX(-2rem);
+          transform: translateX(-2rem);
+  border-radius: 8px;
+  border: 20px solid #03a0d2;
+}
+.type-2 {
+  position: relative;
+  -webkit-transform: translateX(-2rem);
+          transform: translateX(-2rem);
+  border-radius: 8px;
+  border: 20px solid #8e0b01;
+}
+/* Inputs */
+.input {
+  position: absolute;
+  width: 482px;
+  height: 58px;
+  z-index: 9;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  outline: none;
+  padding: 1.2rem ;
+  color: #767575;
+  font-size: 1.5rem;
+  font-weight: 100;
+  background: url(../img/input.png);
+  left: 50px;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.input-1 {
+  top: 70px;
+}
+.input-2 {
+  top: 160px;
+}
+.input-3 {
+  top: 30px;
+}
+.input-4 {
+  top: 100px;
+}
+.input-5 {
+  top: 170px;
+}
+.input-6 {
+  top: 240px;
+}
+/* Forgot your password? */
+.fogot {
+  position: absolute;
+  width: 482px;
+  height: 58px;
+  top: 235px;
+  left: 70px;
+  color: #8e0b01;
+  opacity: 0.6;
+}
+.fogot::after {
+  content: '';
+  display: block;
+  width: 7rem;
+  height: 1px;
+  -webkit-transform-origin: 0;
+          transform-origin: 0;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  background-color: #8e0b01;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+.fogot:hover::after {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+}
+/* Remind */
+.remind {
+  position: relative;
+  width: 138px;
+  height: 28px;
+  left: 70px;
+  top: 310px;
+}
+/* Log in */
+.log-in {
+  display: inline-block;
+  width: 127px;
+  height: 53px;
+  background: url(../img/Entrance.png);
+  position: absolute;
+  z-index: 9;
+  left: 495px;
+  top: 315px;
+  text-align: center;
+  padding: 7px 0;
+}
+.enter {
+  color: #ffffff;
+  font-size: 1.3rem;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+/* Register */
+.agree {
+  position: relative;
+  width: 400px;
+  height: 28px;
+  left: 20px;
+  top: 320px;
+}
+.register {
+  display: inline-block;
+  width: 210px;
+  height: 71px;
+  background: url(../img/Register.png);
+  position: absolute;
+  z-index: 9;
+  left: 429px;
+  top: 310px;
+  text-align: center;
+  padding: 7px 0;
+}
