@@ -67,5 +67,9 @@
 
 [Практика.Часть 6](https://polog3.github.io/Practice-6/src "Моя домашка") - Верстка блока с ценами
 
+[Урок 19](https://polog3.github.io/lesson-19/src/ "Моя домашка") - Анимация на CSS3
+
+
+
 
 
