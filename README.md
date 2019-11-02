@@ -69,6 +69,10 @@
 
 [Урок 19](https://polog3.github.io/lesson-19/src/ "Моя домашка") - Анимация на CSS3
 
+[Практика.Часть 7](https://polog3.github.io/Practice-7/src "Моя домашка") - Верстка блока с отзывами
+
+
+
 
 
 
