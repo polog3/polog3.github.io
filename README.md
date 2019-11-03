@@ -77,6 +77,8 @@
 
 [Урок 21](https://polog3.github.io/lesson-21/src/ "Моя домашка") - Parallax эффект для сайта
 
+[Практика.Часть 9](https://polog3.github.io/Practice-9/src "Моя домашка") - Верстаем схему работы и все включено
+
 
 
 
