@@ -1,0 +1,436 @@
+@font-face {
+    font-family: 'HP Simplified';
+    src: url('../fonts/HPSimplified-Regular.eot');
+    src: url('../fonts/HPSimplified-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/HPSimplified-Regular.woff2') format('woff2'),
+        url('../fonts/HPSimplified-Regular.woff') format('woff'),
+        url('../fonts/HPSimplified-Regular.ttf') format('truetype'),
+        url('../fonts/HPSimplified-Regular.svg#HPSimplified-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.scale {
+    transition: 1s; /* Время эффекта */
+   }
+   .scale:hover {
+    transform: scale(1.2); /* Увеличиваем масштаб */
+   }
+
+ label.required:after
+ {
+    color: red;
+    content: " *";
+ }
+
+ a:hover { 
+    text-decoration: none; 
+    color: white;
+    cursor: pointer;
+   }
+ input:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+   }
+
+ .btn-1:hover {
+ 	background-color: #f35a31;
+ 	cursor: pointer;
+ }
+
+  .btn-1:after {
+    display: block;
+    content: "";
+    height: 2px;
+    width: 0%;
+    background-color: #000;
+    transition: width .3s ease-in-out;
+ }
+  .btn-1:hover:after,
+  .btn-1:focus:after {
+      width: 100%;
+ }
+  .btn-1:active {
+  	background-color: #f79e87;
+  }
+
+   .btn-3:hover {
+ 	background-color: #f35a31;
+ 	cursor: pointer;
+ }
+
+  .btn-3:after {
+    display: block;
+    content: "";
+    height: 2px;
+    width: 0%;
+    background-color: #000;
+    transition: width .3s ease-in-out;
+ }
+  .btn-3:hover:after,
+  .btn-3:focus:after {
+      width: 100%;
+ }
+  .btn-3:active {
+  	background-color: #f79e87;
+  }
+
+.header {
+	background: #ffd195 url(../img/header-bg.jpg) center no-repeat;
+ border-bottom: 1px solid #000;
+ background-size: 100%;
+ height: 130px;
+}
+
+.header img {
+	height: 130px;
+	display: inline-block;
+	position: relative;
+ left: 50%;
+ transform: translateX(-50%);
+}
+
+.offers {
+	background: #f3f2f2 url(../img/offers-bg.jpg) 0 0 no-repeat;
+	background-size: 100%;
+	}
+
+h2 {
+	background-color: #fff;
+	display: inline-block;
+	position: relative;
+ left: 48%;
+ top: 4rem;
+ transform: translateX(-50%);
+ border: 2px solid #000;
+ font-family: 'HP Simplified', sans-serif;
+ text-transform: uppercase;
+ font-size: 3rem;
+ letter-spacing: 5px;
+ color: #000;
+}
+
+.points {
+	margin-top: 5rem;
+	margin-bottom: 1rem;
+}
+
+.points .media {
+	margin-bottom: 1rem;
+	background-color: #fff;
+	max-height: 3rem;
+	margin-left: 6rem;
+	width: 102%;
+	color: #000;
+}
+
+.points .media .body {
+	margin-top: 0.5rem;
+	margin-left: 1rem;
+	font-size: 1.5rem;
+	font-family: 'HP Simplified', sans-serif;
+	color: #000;
+}
+
+.benefits {
+	background: #ffd87c url(../img/benefits.jpg) 0 0 no-repeat;
+	background-size: 100%;
+}
+
+.table {
+	margin-top: 5rem;
+	border: 4px solid #000;
+} 
+.table .line td{
+	width: 308px;
+}
+.table .line_1 td {
+	border-bottom: 2px solid #000;
+	text-align: center;
+	padding: 0;
+	font-size: 2.5rem;
+	font-weight: 600;
+	letter-spacing: 5px;
+	font-family: 'HP Simplified', sans-serif;
+	background-color: #ebac16;
+	color: #000;
+}
+.table .line_2 td {
+	border-left: 4px solid #000;
+	background-color: #fff;
+	height: 313px;
+	font-family: 'HP Simplified', sans-serif;
+	font-size: 1.5rem;
+	letter-spacing: 3px;
+	text-align: center;
+	color: #000;
+
+}
+.table .line_3 td {
+	border-left: 4px solid #000;
+	height: 222px;
+	background-color: rgba(204, 204, 204, 0.7);
+	color: #000;
+}
+.table .line_3 td img {
+	display: inline-block;
+	position: relative;
+ left: 50%;
+ top: 20%;
+ transform: translateX(-50%);
+	text-align: center;
+}
+
+.success {
+		background: #727175 url(../img/success-bg.jpg) 0 0 no-repeat;
+	 background-size: 100%;
+}
+.projects {
+	margin-top: 7rem;
+	text-align: center;
+}
+
+.project {
+	margin-bottom: 2rem;
+	display: inline-block;
+	margin-right: 4rem;
+	border: 3px solid #000;
+}
+
+.contact	{
+	background: #ffd195 url(../img/bg-contact.jpg) center no-repeat;
+ background-size: cover;
+}
+ .contact h3 {
+ display: inline-block;
+	position: relative;
+ left: 50%;
+ top: 4rem;
+ transform: translateX(-50%);
+ font-family: 'HP Simplified', sans-serif;
+ text-transform: uppercase;
+ font-weight: 600;
+ letter-spacing: 5px;
+	font-size: 3rem;
+	color: #000;
+}
+.line-l {
+	position: relative;
+	top: 4rem;
+	left: 50%;
+	transform: translateX(-50%);
+	border-bottom: 4px solid #000;
+	width: 250px;
+}
+.text {
+ margin-top: 4.5rem;
+	text-align: center;
+	font-family: 'HP Simplified', sans-serif;
+	font-size: 2rem;
+	letter-spacing: 5px;
+	font-weight: 600;
+	line-height: 1;
+	color: #000;
+}
+.phone {
+	margin-top: 2rem;
+	margin-bottom: 1rem;
+	font-family: 'HP Simplified', sans-serif;
+	font-size: 1.25rem;
+	letter-spacing: 2px;
+}
+.mail {
+	font-family: 'HP Simplified', sans-serif;
+	font-size: 1.25rem;
+	letter-spacing: 2px;
+}
+
+.btn-1 {
+	display: inline-block;
+	position: relative;
+	left: 85%;
+	top: -3.5rem;
+	padding: 10px;
+	border: 2px solid #000;
+	letter-spacing: 2px;
+	font-family: 'HP Simplified', sans-serif;
+	text-transform: uppercase;
+	font-size: 1rem;
+	background-color: #e74114;
+	color: #000;
+}
+
+a {
+	color: #000;
+	font-family: 'HP Simplified', sans-serif;
+	font-weight: 600;
+}
+.modal-dialog {
+	width: 330px;
+	height: 416px;
+}
+.modal-content {
+	width: 330px;
+	height: 430px;
+	border: 3px solid #000;
+	border-top: 0;
+}
+.head {
+	text-align: center;
+	height: 44px;
+	background: #ffd195 url(../img/head-bg.jpg) center no-repeat;
+ background-size: cover;
+}
+.head h3 {
+	padding: 5px 0 0 0;
+}
+.form {
+	background-color: #fff;
+	text-align: center;
+}
+.form-input {
+	margin-top: 23px;
+	width: 242px;
+}
+.form-input-1 {
+	margin-top: 32px;
+}
+label {
+	display: inline-block;
+	position: absolute;
+	z-index: 9;
+	left: 50%;
+	margin-top: 60px;
+	font-family: 'HP Simplified', sans-serif;
+	padding: 0 7px;
+	transform: translateX(-50%);
+	background-color: #fff;
+}
+.label-1 {
+	margin-top: 17px;
+}
+.label-2 {
+	margin-top: 70px;
+}
+
+.btn-2 {
+position: absolute;
+z-index: 10;
+left: 93%;
+top: 0;
+}
+
+.btn-3 {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	top: 380px;
+	font-size: 1rem;
+	font-family: 'HP Simplified', sans-serif;
+	letter-spacing: 2px;
+	font-weight: bold;
+	width: 117px;
+	background-color: #e74114;
+	border: none;
+}
+
+.text-1 {
+	margin-top: 2rem;
+	text-align: center;
+	font-weight: 600;
+	font-size: 1.2rem;
+}
+.modal-dialog_2 {
+	width: 330px;
+	height: 150px;
+}
+.modal-content_2 {
+	width: 330px;
+	height: 150px;
+}
+input {
+	text-align: center;
+}
+
+@media (max-width: 1312px) {
+ .header {
+	  height: 100px;
+  }
+ .header img {
+  	height: 100px;
+  }
+ h2 {
+ 	top: 1rem;
+  }
+ .points .media .body {
+	margin-left: 1rem;
+	font-size: 1.5rem;
+	font-family: 'HP Simplified', sans-serif;
+ }
+.points {
+	margin-top: 3rem;
+ }
+.points .media {
+	margin-bottom: 0.5rem;
+	background-color: #fff;
+	max-height: 3rem;
+	width: 102%
+ }
+.table {
+		margin-top: 2rem;
+		position: relative;
+  left: 50%;
+  top: 20%;
+  transform: translateX(-50%);
+ }
+ .table .line_2 td {
+ 		font-size: 1.25rem;
+ }
+
+ .table .line_3 td {
+   height: 190px;
+ }
+
+ .projects {
+ 	margin-top: 3rem;
+ }
+}
+
+@media (max-width: 1200px) {
+
+	.points .media {
+	margin-left: 2.5rem;
+}
+	.projects {
+	text-align: center;
+ }
+
+ .project {
+	margin-bottom: 2rem;
+	display: inline-block;
+	margin-right: 4rem;
+	border: 3px solid #000;
+	margin-right: 27px;
+ }
+ .success {
+		background: none;
+		background-color: #727175;
+ }
+
+}
+@media (max-width: 990px) {
+  .table .line_2 td {
+ 		font-size: 1rem;
+ }
+ .points .media {
+ 	margin-left: -3rem;
+ 	width: 113%;
+ }
+ .points .media .body {
+	font-size: 1.4rem;
+}
+}
+	
+
+
+color: red; text-align: center; background-color: #fff; font-size: 10px;
